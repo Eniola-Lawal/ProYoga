@@ -1,0 +1,111 @@
+*{
+margin: 0px;
+}
+body {font-family: Verdana, sans-serif;}
+div{
+
+padding: 0px 40px 60px 40px;    
+
+}
+.card{
+    width: 390px;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+footer{
+    margin:140px 0 0 0;
+}
+
+
+
+/*  large screen size e */
+@media( max-width: 1200px) and (min-width:1050px){
+   .card{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+    footer{
+    margin-top:90px;
+}
+}
+
+
+   
+/*  tablet screen size */
+@media( max-width: 1049px) and (min-width:992px){
+   .card{
+    width: 270px;
+    height: 350px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+    footer{
+    margin-top:90px;
+}
+}
+   
+/*  phone screen size */
+@media( max-width: 991px) and (min-width:768px){
+   .card{
+    width: 300px;
+    height: 350px;
+    margin:50px 50px 20px 50px;
+      
+}
+    footer{
+    margin-top:970px;
+}
+}
+   
+
+/*  extra small and small phone screen size */
+@media( max-width: 767px) and (min-width:200px){
+   .img{
+        position: relative;
+    }
+    .logo{
+        font-size: 18px;
+        font-weight: bolder;
+    }
+    .btn1 {
+    position: absolute;
+    top:0;
+    right:40px; 
+     background-color: transparent;
+        font-size: 12px;
+}
+.btn2 {
+    position: absolute;
+    top:0;
+    right:100px; 
+     background-color: transparent;
+    font-size: 12px;
+}
+ .btn3 {
+    position: absolute;
+    top:0;
+    right:150px; 
+      background-color: transparent;
+     font-size: 12px;
+}
+    div{
+
+padding: 0px 40px 60px 40px;  
+        margin-bottom: 0px;
+        white-space: nowrap;
+
+}
+   .card{
+    width: 300px;
+    height: 350px;
+    margin:50px 50px 20px 50px;
+      
+}
+    footer{
+    margin-top:0px;
+}
+}
+   

@@ -1,0 +1,647 @@
+*{
+    margin: 0;
+}
+ body{
+color: white;
+    font-weight: bold;
+}
+
+   
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease in out;
+    
+   
+}
+
+.d1{
+    position: absolute;
+    bottom: 50%;
+    left: 47%;
+}
+.d2{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+.d3{
+    position: absolute;
+    bottom: 50%;
+    left:53%;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+
+.p1{
+    font-size: 25px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.p2{
+    font-size: 15px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+button{
+color: white;
+    font-weight: bold;
+    border: none;
+   
+    margin: 20px;
+}
+button:hover{
+background-color: gray;
+}
+#c1{
+    position: absolute;
+    top:10%;
+        left: 20%;
+    float: left;
+    margin: 20px;
+}
+
+.img{
+    position: relative;
+    width: 100%;
+    height: 65%;
+}
+.logo{
+position: absolute;
+top:20px;
+    left:60px;
+}
+.btn1 {
+    position: absolute;
+    top:0;
+    right:30px; 
+     background-color: transparent;
+}
+.btn2 {
+    position: absolute;
+    top:0;
+    right:100px; 
+     background-color: transparent;
+}
+ .btn3 {
+    position: absolute;
+    top:0;
+    right:160px; 
+      background-color: transparent;
+}
+
+
+#pa2{
+color: black;
+    font-size: 15px;
+margin: 15px 0 25px 0;
+}
+#div1{
+    margin: 30px 70px 70px 70px;
+}
+#P2{
+    color: black;
+    font-family: serif;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+#pa3{
+width: 100%;
+height: 320px;
+background-image: url(Nature4.jpeg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+    font-size: 15px;
+    font-weight: bolder;
+    text-align: center;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+#pa4{
+width: 100%;
+height: 152px;
+background-image: url(Nature5.jpeg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+    border-radius: 4px;
+   
+   
+}
+#pa5{
+width: 100%;
+height: 152px;
+background-image: url(Serene4.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+    border-radius: 4px;
+}
+.grid-container{
+    display: grid;
+    grid-template: 50% 50% /50% 50%;
+    grid-row-gap:7px;
+    grid-column-gap: 14px;
+}
+.item-1 {
+    grid-column: span 1;
+    grid-row: span 2;
+  
+}
+.item-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+  
+}
+.item-3 {
+    grid-column: span 1;
+    grid-row: span 1;
+     
+}
+.grid-item{
+    text-align: center;
+    
+    
+    
+}
+
+#div2{
+    background-image: url("Floral5.jpg");
+        background-size: 100% 100%;
+    
+    width:100%;
+    height:30%;
+    position: relative;
+    border: none;
+}
+#p3{
+    position: absolute;
+top: 50%;
+    left: 30%;
+    font-weight: bolder;
+}
+#btn5{
+    position: absolute;
+bottom: 10%;
+left:46%;
+    background-image:linear-gradient(90deg,  mediumslateblue, darkslateblue);
+    border-color: mediumslateblue;
+    border-radius: 5px;
+}
+#div3{
+    margin: 90px 40px 90px 40px;
+    position: relative;
+}
+#a1{
+    color:mediumslateblue;
+    text-align: left;
+    margin-bottom: 15px;
+    position: absolute;
+    left: 12px;
+    top: 0px;
+}
+#section1{
+
+    font-size: 20px;
+    padding: 0px;
+    color: gray;
+    margin-bottom: 15px;
+     position: absolute;
+    left: 12px;
+    top: 50px;
+}
+#section2{
+    
+    font-size: 15px;
+     color: grey;
+     position: absolute;
+    left: 12px;
+    top: 120px;
+    
+}
+#plan1{
+width:200px;
+    height: 280px;
+    float: right;
+    margin-right: 23px;
+}
+#plan2{
+width: 200px;
+    height: 280px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+
+/* footer */
+footer{
+    margin:  90px 0px 0px 0px;
+    padding:  70px 40px 90px 40px;
+    background-image:linear-gradient(90deg,  mediumslateblue, darkslateblue);
+    position: relative;
+    height: 200px;
+}
+#p4{
+    font-weight: bolder;
+    font-size: 20px;
+    position: absolute;
+    top:90px;
+    left:60px;
+}
+
+#input{
+    width: 510px;
+ height: 30px;
+    position: absolute;
+    border-radius: 5px;
+    top:90px;
+    right: 68px;
+    padding-left: 10px;
+    border-color: transparent;
+}
+
+#b6{
+    width: 50px;
+    height:30px;
+    border: 1px solid black;
+    border-radius:0 5px 5px 0px;
+    border-color: transparent;
+    background-color:gray;
+    position: absolute;
+    top: 90px;
+    right:68px;
+    margin: 0;
+}
+
+#img4{
+    width: 20px;
+    height: 20px;
+  
+}
+
+
+
+
+
+/*  tablet screen size */
+@media( max-width: 1065px) and (min-width:769px){
+    #Y1{
+    width: 90%;
+    height: 40%;
+}
+   
+
+#p1{
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.p2{
+    font-size: 15px;
+    position: absolute;
+    top: 40%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    }
+    #b1{
+    width: 50px;
+    height: 20px;
+     position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+    #p3{
+    position: absolute;
+top: 50%;
+    left: 25%;
+    font-weight: bold;
+        font-size: 10px;
+}
+  
+   #btn5{
+    position: absolute;
+bottom: 10%;
+left:40%;
+    background-image:linear-gradient(90deg,  mediumslateblue, darkslateblue);
+    border-color: mediumslateblue;
+    border-radius: 5px;
+}
+    
+     #div3{
+    margin: 50px 10px 50px 10px;
+    position: relative
+}
+#a1{
+    color:mediumslateblue;
+    text-align: left;
+    margin-bottom: 10px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+#section1{
+
+    font-size: 20px;
+    padding: 0px;
+    color: gray;
+    margin-bottom: 15px;
+     position: absolute;
+    left: 10px;
+    top: 50px;
+}
+#section2{
+    
+    font-size: 15px;
+     color: grey;
+     position: absolute;
+    left: 10px;
+    top: 120px;
+    
+}
+    #plan1{
+width:200px;
+    height: 300px;
+    float: left;
+        position: absolute;
+        top: 270px;
+        left:10px;
+    
+}
+   
+#plan2{
+width: 200px;
+    height: 300px;
+    float: left;
+    margin-right: 15px;
+     position: absolute;
+        top: 630px;
+    left:10px;
+    
+}
+    /* footer */
+footer{
+    margin:  750px 0px 0px 0px;
+    padding:  70px 40px 90px 40px;
+    background-image:linear-gradient(90deg,  mediumslateblue, darkslateblue);
+    position: relative;
+    height: 200px;
+}
+#p4{
+    font-weight: bolder;
+    font-size: 17px;
+    position: absolute;
+    top:90px;
+    left:60px;
+}
+
+#input{
+    width: 350px;
+ height: 30px;
+    position: absolute;
+    border-radius: 5px;
+    top:90px;
+    right: 68px;
+    padding-left: 10px;
+    border-color: transparent;
+}
+
+#b6{
+    width: 50px;
+    height:30px;
+    border: 1px solid black;
+    border-radius:0 5px 5px 0px;
+    border-color: transparent;
+    background-color:gray;
+    position: absolute;
+    top: 90px;
+    right:68px;
+    margin: 0;
+}
+
+#img4{
+    width: 20px;
+    height: 20px;
+  
+}
+
+
+
+
+    
+    }
+
+
+
+/* extra small dveices and phone screen size */
+@media ( max-width: 768px) and (min-width:200px){
+    .logo{
+position: absolute;
+top:20px;
+    left:43px;
+}
+    .btn1 {
+    position: absolute;
+    top:0;
+    right:40px; 
+     background-color: transparent;
+}
+.btn2 {
+    position: absolute;
+    top:0;
+    right:100px; 
+     background-color: transparent;
+}
+ .btn3 {
+    position: absolute;
+    top:0;
+    right:150px; 
+      background-color: transparent;
+}
+
+
+    
+    
+    
+  .p1{
+    font-size: 20px;
+      color: white;
+      font-weight: bolder;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      white-space: nowrap;
+
+}
+    .p2{
+    font-size: 13px;
+    position: absolute;
+    top: 37%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+         white-space: nowrap;
+    }
+   
+    .d1{
+    position: absolute;
+    bottom: 50%;
+    left: 45%;
+}
+.d2{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+}
+.d3{
+    position: absolute;
+    bottom: 50%;
+    left:55%;
+}
+     #p3{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    font-weight: bold;
+        font-size: 10px;
+}
+    
+    
+   #btn5{
+    position: absolute;
+bottom: 10%;
+left:35%;
+    background-image:linear-gradient(90deg,  mediumslateblue, darkslateblue);
+    border-color: mediumslateblue;
+    border-radius: 5px;
+}
+    
+    #section1{
+
+    font-size: 18px;
+    padding: 0px;
+    color: gray;
+    margin-bottom: 15px;
+     position: absolute;
+    left: 10px;
+    top: 50px;
+}
+#section2{
+    
+    font-size: 14px;
+     color: grey;
+     position: absolute;
+    left: 10px;
+    top: 120px;
+    
+}
+    #plan1{
+width: 200px;
+    height: 300px;
+    float: left;
+        position: absolute;
+        top: 310px;
+        left: 12px;
+    
+}
+   
+#plan2{
+width: 200px;
+    height: 300px;
+    float: left;
+    margin-right: 15px;
+     position: absolute;
+     top: 680px;
+    left: 12px
+}
+footer{
+    margin:  750px 0px 0px 0px;
+    padding:  70px 40px 90px 40px;
+    background-image:linear-gradient(90deg,  mediumslateblue, darkslateblue);
+    position: relative;
+    height: 300px;
+}
+#p4{
+    font-weight: bolder;
+    font-size: 15px;
+    position: absolute;
+    top:100px;
+    left:55px;
+}
+
+#input{
+    width: 350px;
+ height: 30px;
+    position: absolute;
+    border-radius: 5px;
+    top:150px;
+    left: 55px;
+    padding-left: 10px;
+    border-color: transparent;
+}
+
+#b6{
+    width: 50px;
+    height:30px;
+    border: 1px solid black;
+    border-radius:0 5px 5px 0px;
+    border-color: transparent;
+    background-color:gray;
+    position: absolute;
+    top: 150px;
+    left:360px;
+    margin: 0;
+}
+
+#img4{
+    width: 20px;
+    height: 20px;
+  
+}
+
+
+
+
+}
+
+
