@@ -67,6 +67,7 @@ img {vertical-align: middle;}
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
+      white-space: pre;
 
 }
 .p2{
@@ -333,6 +334,7 @@ footer{
     top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
+      white-space: pre;
 
 }
 .p2{
@@ -472,9 +474,8 @@ footer{
     }
 
 
-
-/* extra small dveices and phone screen size */
-@media ( max-width: 768px) and (min-width:200px){
+/* tablet and ipad screen size */
+@media ( max-width: 768px) and (min-width:427px){
     .logo{
 position: absolute;
 top:20px;
@@ -511,7 +512,7 @@ top:20px;
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
-      white-space: nowrap;
+       white-space: pre;
 
 }
     .p2{
@@ -643,5 +644,172 @@ footer{
 
 
 }
+/* phone screen */
+@media ( max-width: 425px) and (min-width:200px){
+    .logo{
+position: absolute;
+top:20px;
+    left:25px;
+        font-size: 13px;
+}
+    .btn1 {
+    position: absolute;
+    top:0;
+    right:8px; 
+     background-color: transparent;
+}
+.btn2 {
+    position: absolute;
+    top:0;
+    right:60px; 
+     background-color: transparent;
+}
+ .btn3 {
+    position: absolute;
+    top:0;
+    right:110px; 
+      background-color: transparent;
+}
+    
+  .p1{
+    font-size: 15px;
+      color: white;
+      font-weight: bolder;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      white-space: pre;
+
+}
+    .p2{
+    font-size: 12px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+         white-space: nowrap;
+    }
+      .d1{
+    position: absolute;
+    bottom: 50%;
+    left: 30%;
+}
+.d2{
+    position: absolute;
+    bottom: 50%;
+    left: 40%;
+}
+.d3{
+    position: absolute;
+    bottom: 50%;
+    left:50%;
+}
+     #p3{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    font-weight: bold;
+        font-size: 10px;
+}
+     
+   #btn5{
+    position: absolute;
+bottom: 10%;
+left:25%;
+    background-image:linear-gradient(90deg,  mediumslateblue, darkslateblue);
+    border-color: mediumslateblue;
+    border-radius: 5px;
+}
+    
+     #section1{
+
+    font-size: 13px;
+    padding: 0px;
+    color: gray;
+    margin-bottom: 15px;
+     position: absolute;
+    left: 10px;
+    top: 50px;
+}
+#section2{
+    
+    font-size: 10px;
+     color: grey;
+     position: absolute;
+    left: 10px;
+    top: 120px;
+    
+}
+    #plan1{
+width: 100px;
+    height: 200px;
+    float: left;
+        position: absolute;
+        top: 310px;
+        left: 12px;
+    
+}
+   
+#plan2{
+width: 100px;
+    height: 200px;
+    float: left;
+    margin-right: 15px;
+     position: absolute;
+     top: 590px;
+    left: 12px
+}
+footer{
+    margin:  600px 0px 0px 0px;
+    padding:  70px 40px 90px 40px;
+    background-image:linear-gradient(90deg,  mediumslateblue, darkslateblue);
+    position: relative;
+    height: 300px;
+} 
+
+
+#p4{
+    font-weight: bolder;
+    font-size: 15px;
+    position: absolute;
+    top:100px;
+    left:55px;
+}
+
+#input{
+    width: 200px;
+ height: 30px;
+    position: absolute;
+    border-radius: 5px;
+    top:150px;
+    left: 55px;
+    padding-left: 10px;
+    border-color: transparent;
+}
+
+#b6{
+    width: 50px;
+    height:30px;
+    border: 1px solid black;
+    border-radius:0 5px 5px 0px;
+    border-color: transparent;
+    background-color:gray;
+    position: absolute;
+    top: 150px;
+    left:220px;
+    margin: 0;
+    padding: 2px;
+}
+
+#img4{
+    width: 15px;
+    height: 15px;
+  
+}
+}
+
+
+
 
 
